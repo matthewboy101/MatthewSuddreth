@@ -1,2 +1,16 @@
-1.24
-when is Matthew chat you now can hit enter to send a chat 
+Updates
+1.35
+transishen to a new website host is compleated (AWS ¯\_(ツ)_/¯)
+fix some bugs and code 
+ski cam is ofline for matintenance
+
+
+-UPDATE 1.23- 
+
+In this update, 
+We add the new Matthew chat -- which is a custom chat room where it is not regulated.
+We are officially HTTPS -- which means we are safe.
+And finally, 
+we updated the URL to be cleaner looking 
+
+
