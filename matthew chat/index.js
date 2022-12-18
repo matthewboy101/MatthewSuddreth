@@ -331,7 +331,7 @@ window.onload = function() {
   if(app.get_name() != null){
     app.chat()
   }
-    // Get the input field
+// Get the input field
 var chat_input= document.getElementById("chat_input");
 
 // Execute a function when the user releases a key on the keyboard
@@ -343,7 +343,7 @@ chat_input.addEventListener("keyup", function(event) {
     // Trigger the button element with a click
     document.getElementById("chat_input_send").click();
   }
-}); 
+});  
 
 }
 

@@ -1,11 +1,16 @@
 Updates
-1.35
-transishen to a new website host is compleated (AWS ¯\_(ツ)_/¯)
+
+UPDATE 2.0 - Christmas Update
+We have updated the home page for the holiday season. In addition, we have made improvements to the Matthew chat feature, including adding a warning message before entering and enabling the ability to send messages using the enter key. We have also added a new "caps" page to the website, where you can see how many goals Alex Ovechkin has scored in his career. Finally, we have made some updates to the back-end infrastructure to improve the performance and stability of the website.
+
+
+-UPDATE 1.2- 
+transition to a new website host is completed (AWS ¯\_(ツ)_/¯)
 fix some bugs and code 
-ski cam is ofline for matintenance
+ski cam is offline for maintenance
 
 
--UPDATE 1.23- 
+-UPDATE 1.0- 
 
 In this update, 
 We add the new Matthew chat -- which is a custom chat room where it is not regulated.
