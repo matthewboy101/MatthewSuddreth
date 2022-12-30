@@ -1,5 +1,8 @@
 Updates
 
+UPDATE 2.1 - Christmas Update
+some bug fixes and ski cam working 
+
 UPDATE 2.0 - Christmas Update
 We have updated the home page for the holiday season. In addition, we have made improvements to the Matthew chat feature, including adding a warning message before entering and enabling the ability to send messages using the enter key. We have also added a new "caps" page to the website, where you can see how many goals Alex Ovechkin has scored in his career. Finally, we have made some updates to the back-end infrastructure to improve the performance and stability of the website.
 
