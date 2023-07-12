@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: black;
+      color: white;
+    }
+
+    h1 {
+      margin-top: 50px;
+    }
+
+    #countup {
+      font-size: 36px;
+      margin: 50px auto;
+    }
+
+    #countup div {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    #countup div span {
+      display: block;
+    }
+
+    #credit {
+      margin-top: 50px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h1>How long will the deck take to be built?</h1>
+    <h2> it been this long sence we started.</h2>
+  <div id="countup">
+    <div id="months"><span></span> Months</div>
+    <div id="days"><span></span> Days</div>
+    <div id="hours"><span></span> Hours</div>
+    <div id="minutes"><span></span> Minutes</div>
+    <div id="seconds"><span></span> Seconds</div>
+  </div>
+
+  <div id="credit">
+   Asked by Matthew, Made by ChatGPT
+  </div>
+
+  <script>
+    // Set the start date for the count-up timer
+    var startDate = new Date("may 9, 2023 12:00:00").getTime();
+
+    function updateCountup() {
+      var currentDate = new Date().getTime();
+      var difference = currentDate - startDate;
+
+      var months = Math.floor(difference / (1000 * 60 * 60 * 24 * 30));
+      var days = Math.floor((difference % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+      document.getElementById("months").getElementsByTagName("span")[0].innerHTML = months;
+      document.getElementById("days").getElementsByTagName("span")[0].innerHTML = days;
+      document.getElementById("hours").getElementsByTagName("span")[0].innerHTML = hours;
+      document.getElementById("minutes").getElementsByTagName("span")[0].innerHTML = minutes;
+      document.getElementById("seconds").getElementsByTagName("span")[0].innerHTML = seconds;
+    }
+
+    // Update the count-up timer every second
+    setInterval(updateCountup, 1000);
+  </script>
+</body>
+</html>

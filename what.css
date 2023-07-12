@@ -1,0 +1,37 @@
+.bubble {
+    position: relative;
+    background: #000000;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 120px;
+    text-align: center;
+    width: 250px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 0px;
+    float:left;
+    top: 200PX;
+    position: absolute;
+    left: 52%;
+    word-wrap: break-word;
+}
+.bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: transparent #000000;
+    border-width: 20px 20px 20px 0;
+    top: 50%;
+    left: -20px;
+    margin-top: -20px;
+}
+
+img{
+    float: left;
+    position: absolute;
+    right: 50%
+}
